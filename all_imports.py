@@ -701,14 +701,16 @@ class EnhancedOCRProcessor:
 
 
 
-# Example usage
-if __name__ == "__main__":
-    # Load configuration
-    config = ProcessingConfig.from_env()
-    api_key = os.getenv('OPENAI_API_KEY')
-    file_path = r"C:\Users\GAYATHRI K\OneDrive\Desktop\universal_import_tim_pay\universal_import_tim_pay\content\Richard Baughn Payroll Example - QB (1).png"
-    processor = EnhancedOCRProcessor(api_key, config)
-    with open(file_path, 'rb') as f:
-        file_content = f.read()
-    result = processor.process_image_document(file_content, "Richard Baughn Payroll Example - QB (1).png")
-    print(result.content)
+
+
+# # Example usage
+# if __name__ == "__main__":
+#     # Load configuration
+#     config = ProcessingConfig.from_env()
+#     api_key = os.getenv('OPENAI_API_KEY')
+#     file_path = r"C:\Users\GAYATHRI K\OneDrive\Desktop\universal_import_tim_pay\universal_import_tim_pay\Richard Baughn Payroll Example - QB (1).png"
+#     processor = EnhancedOCRProcessor(api_key, config)
+#     with open(file_path, 'rb') as f:
+#         file_content = f.read()
+#     result = processor.process_image_document(file_content, "Richard Baughn Payroll Example - QB (1).png")
+#     print(result.content)

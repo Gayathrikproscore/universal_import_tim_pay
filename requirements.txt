@@ -1,13 +1,16 @@
 openai
-pdf2image
 Pillow
 pandas
 openpyxl
 xlrd
 python-dotenv
 PyMuPDF
-
-
+anthropic
+backoff
+fastapi
+uvicorn
+python-multipart
+requests
 
 
 

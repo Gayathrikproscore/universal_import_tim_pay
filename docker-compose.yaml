@@ -1,0 +1,24 @@
+# Simple Docker Compose file
+# This runs your application in a container
+
+version: '3.8'
+
+services:
+  payroll-timesheet-app:
+    # Build the image from your Dockerfile
+    build: .
+
+    # Map port 8000 from container to your computer
+    ports:
+      - "8000:8000"
+
+    # Use your .env file for API keys (much safer!)
+    env_file:
+      - .env
+
+    # Optional: Add any extra environment variables here
+    environment:
+      - MAX_FILE_SIZE_MB=100
+
+    # Restart the container if it stops
+    restart: unless-stopped
