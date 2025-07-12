@@ -1,0 +1,108 @@
+2025-07-11 23:55:45,200 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-11 23:55:45,416 - __main__ - INFO - [a9465d3e] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-11 23:55:45,421 - __main__ - ERROR - [a9465d3e] Error converting PDF to images: Unable to get page count. Is poppler installed and in PATH?
+2025-07-11 23:59:58,756 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-11 23:59:59,017 - __main__ - INFO - [32cf2da0] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-11 23:59:59,029 - __main__ - INFO - [32cf2da0] PDF has 2 pages, processing 2
+2025-07-11 23:59:59,372 - __main__ - INFO - [32cf2da0] Successfully converted 2 pages to images
+2025-07-11 23:59:59,372 - __main__ - INFO - [32cf2da0] Processing page 1/2
+2025-07-12 00:00:19,083 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:00:20,113 - __main__ - INFO - [32cf2da0] Processing page 2/2
+2025-07-12 00:00:30,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:03:56,914 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:03:57,196 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:03:57,196 - __main__ - INFO - [27c71307] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-12 00:03:57,196 - __main__ - INFO - [27c71307] PDF has 2 pages, processing 2
+2025-07-12 00:03:57,486 - __main__ - INFO - [27c71307] Successfully converted 2 pages to images
+2025-07-12 00:03:57,488 - __main__ - INFO - [27c71307] Processing page 1/2
+2025-07-12 00:04:16,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:04:17,668 - __main__ - INFO - [27c71307] Processing page 2/2
+2025-07-12 00:04:23,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:04:24,977 - __main__ - INFO - [27c71307] [SUCCESS] Processing complete: 4,283 characters in 27.78s
+2025-07-12 00:11:05,537 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:11:05,720 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:11:05,720 - __main__ - INFO - [4a64358a] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-12 00:11:05,721 - __main__ - INFO - [4a64358a] PDF has 2 pages, processing 2
+2025-07-12 00:11:06,052 - __main__ - INFO - [4a64358a] Successfully converted 2 pages to images
+2025-07-12 00:11:06,053 - __main__ - INFO - [4a64358a] Processing page 1/2
+2025-07-12 00:11:30,729 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:11:31,745 - __main__ - INFO - [4a64358a] Processing page 2/2
+2025-07-12 00:11:39,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:11:40,787 - __main__ - INFO - [4a64358a] [SUCCESS] Processing complete: 5,072 characters in 35.07s
+2025-07-12 00:12:17,739 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:12:17,945 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:12:17,945 - __main__ - INFO - [c654fc72] Starting PDF processing: MD2 Timesheets 3-30 to 4-05.xlsx
+2025-07-12 00:14:32,191 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:14:32,215 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:14:32,216 - __main__ - INFO - [66229110] Starting PDF processing: MD2 Timesheets 3-30 to 4-05.xlsx
+2025-07-12 00:28:25,515 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:28:25,732 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:28:25,732 - __main__ - INFO - [1ef1b98d] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-12 00:29:05,470 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:29:05,688 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:29:05,703 - __main__ - INFO - [ee966d36] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-12 00:29:05,714 - __main__ - INFO - [ee966d36] PDF has 2 pages, processing 2
+2025-07-12 00:29:06,036 - __main__ - INFO - [ee966d36] Successfully converted 2 pages to images
+2025-07-12 00:29:06,040 - __main__ - INFO - [ee966d36] Processing page 1/2
+2025-07-12 00:29:23,555 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:29:24,575 - __main__ - INFO - [ee966d36] Processing page 2/2
+2025-07-12 00:29:28,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:29:29,533 - __main__ - INFO - [ee966d36] [SUCCESS] Processing complete: 3,331 characters in 23.83s
+2025-07-12 00:30:28,194 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:30:28,201 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:30:28,202 - __main__ - INFO - [1c447ce0] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-12 00:30:28,203 - __main__ - INFO - [1c447ce0] PDF has 2 pages, processing 2
+2025-07-12 00:30:28,490 - __main__ - INFO - [1c447ce0] Successfully converted 2 pages to images
+2025-07-12 00:30:28,492 - __main__ - INFO - [1c447ce0] Processing page 1/2
+2025-07-12 00:30:44,233 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:30:45,247 - __main__ - INFO - [1c447ce0] Processing page 2/2
+2025-07-12 00:30:52,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:30:53,448 - __main__ - INFO - [1c447ce0] [SUCCESS] Processing complete: 4,075 characters in 25.25s
+2025-07-12 00:32:29,949 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:32:29,965 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:32:29,965 - __main__ - INFO - [051ac54c] Starting PDF processing: Paylocity - Brooks - Payroll Register Summary (5) (1).pdf
+2025-07-12 00:32:29,966 - __main__ - INFO - [051ac54c] PDF has 2 pages, processing 2
+2025-07-12 00:32:30,267 - __main__ - INFO - [051ac54c] Successfully converted 2 pages to images
+2025-07-12 00:32:30,269 - __main__ - INFO - [051ac54c] Processing page 1/2
+2025-07-12 00:32:44,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:32:45,543 - __main__ - INFO - [051ac54c] Processing page 2/2
+2025-07-12 00:32:50,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:32:51,626 - __main__ - INFO - [051ac54c] [SUCCESS] Processing complete: 3,679 characters in 21.66s
+2025-07-12 00:33:48,922 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:33:49,054 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:33:49,055 - __main__ - INFO - [4c5eac15] Starting PDF processing: Paylocity - Brooks - Timesheet (1).pdf
+2025-07-12 00:33:49,057 - __main__ - INFO - [4c5eac15] PDF has 1 pages, processing 1
+2025-07-12 00:33:49,235 - __main__ - INFO - [4c5eac15] Successfully converted 1 pages to images
+2025-07-12 00:33:49,238 - __main__ - INFO - [4c5eac15] Processing page 1/1
+2025-07-12 00:34:18,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:34:19,096 - __main__ - INFO - [4c5eac15] [SUCCESS] Processing complete: 3,435 characters in 30.04s
+2025-07-12 00:35:10,947 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:35:11,021 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:35:11,022 - __main__ - INFO - [640ef812] Starting CSV processing: PCI_timesheets.csv
+2025-07-12 00:35:11,048 - __main__ - INFO - [640ef812] [SUCCESS] CSV processing complete: 43 rows, 11 columns in 0.03s
+2025-07-12 00:35:59,662 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:35:59,840 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:35:59,841 - __main__ - INFO - [e95497f5] Starting CSV processing: MD2 Timesheets 3-30 to 4-05.xlsx
+2025-07-12 00:35:59,854 - __main__ - INFO - [e95497f5] Used latin-1 encoding for CSV
+2025-07-12 00:35:59,857 - __main__ - ERROR - [e95497f5] [ERROR] CSV processing failed: Error tokenizing data. C error: Expected 2 fields in line 13, saw 3
+
+2025-07-12 00:36:16,639 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:36:16,649 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:36:16,650 - __main__ - INFO - [59d090d7] Starting CSV processing: MD2 Timesheets 3-30 to 4-05.xlsx
+2025-07-12 00:36:16,651 - __main__ - INFO - [59d090d7] Used latin-1 encoding for CSV
+2025-07-12 00:36:16,653 - __main__ - ERROR - [59d090d7] [ERROR] CSV processing failed: Error tokenizing data. C error: Expected 2 fields in line 13, saw 3
+
+2025-07-12 00:36:29,292 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 503 Service Unavailable"
+2025-07-12 00:36:29,294 - openai._base_client - INFO - Retrying request to /models in 0.475645 seconds
+2025-07-12 00:36:31,262 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:36:31,409 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:36:31,411 - __main__ - INFO - [2a703f31] Starting Excel processing: MD2 Timesheets 3-30 to 4-05.xlsx
+2025-07-12 00:36:31,411 - __main__ - INFO - [2a703f31] Trying openpyxl engine for .xlsx file
+2025-07-12 00:36:32,060 - __main__ - INFO - [2a703f31] [SUCCESS] Excel processing complete with openpyxl: 34 rows, 7 columns in 0.65s
+2025-07-12 00:37:30,367 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:37:30,591 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
+2025-07-12 00:37:30,593 - __main__ - INFO - [b4e2d0f3] Starting image processing: Richard Baughn Payroll Example - QB (1).png
+2025-07-12 00:37:49,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-12 00:37:49,914 - __main__ - INFO - [b4e2d0f3] [SUCCESS] Image processing complete: 3,108 characters in 19.32s
+2025-07-12 00:51:54,185 - httpx - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-07-12 00:51:54,422 - __main__ - INFO - [SUCCESS] OpenAI API connection validated
